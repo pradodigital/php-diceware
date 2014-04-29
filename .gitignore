@@ -1,0 +1,11 @@
+# Composer
+/vendor/
+/composer.phar
+
+# Zend Studio
+/.project
+/.settings
+/.buildpath
+
+# Configuration files
+/phpunit.xml

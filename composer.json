@@ -1,0 +1,16 @@
+{
+  "name" : "pradodigital/php-diceware",
+  "require" : {
+    "php" : ">=5.3.3",
+    "ircmaxell/random-lib" : "~1.0",
+    "zendframework/zend-math" : "2.3.*@dev"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "PradoDigital\\Diceware\\" : "src",
+      "PradoDigital\\Diceware\\Tests\\" : "tests"
+    }
+  },
+  "type" : "library",
+  "license" : "MIT"
+}
