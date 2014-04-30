@@ -3,8 +3,11 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c55869f675e903c2a66dc200f588cf99",
+    "hash": "99064847badb1f5d1ff4be5b8ad1ac42",
     "packages": [
+
+    ],
+    "packages-dev": [
         {
             "name": "ircmaxell/random-lib",
             "version": "v1.0.0",
@@ -145,9 +148,6 @@
             ],
             "time": "2014-03-05 18:00:10"
         }
-    ],
-    "packages-dev": [
-
     ],
     "aliases": [
 

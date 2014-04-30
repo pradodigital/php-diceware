@@ -1,9 +1,15 @@
 {
   "name" : "pradodigital/php-diceware",
   "require" : {
-    "php" : ">=5.3.3",
+    "php" : ">=5.3.3"
+  },
+  "require-dev" : {
     "ircmaxell/random-lib" : "~1.0",
     "zendframework/zend-math" : "2.3.*@dev"
+  },
+  "suggest" : {
+    "ircmaxell/random-lib" : "~1.0, if using RandomLibDice functionality",
+    "zendframework/zend-math" : "~2.3, if using ZendDice functionality"
   },
   "autoload" : {
     "psr-4" : {
