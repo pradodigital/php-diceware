@@ -1,6 +1,6 @@
 <?php
 
-namespace PradoDigital\Dicephrase\Tests;
+namespace PradoDigital\Diceware\Tests;
 
 use PradoDigital\Diceware\DiceRoller;
 

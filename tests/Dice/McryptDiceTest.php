@@ -1,6 +1,6 @@
 <?php
 
-namespace PradoDigital\Dicephrase\Tests\Dice;
+namespace PradoDigital\Diceware\Tests\Dice;
 
 use PradoDigital\Diceware\Dice\McryptDice;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace PradoDigital\Dicephrase\Tests\Dice;
+namespace PradoDigital\Diceware\Tests\Dice;
 
 abstract class AbstractDiceTest extends \PHPUnit_Framework_TestCase
 {
