@@ -1,6 +1,6 @@
 <?php
 
-namespace PradoDigital\Diceware\WordList;
+namespace PradoDigital\Diceware;
 
 class FileWordList implements WordListInterface
 {
@@ -17,7 +17,7 @@ class FileWordList implements WordListInterface
         $this->dictionary = array();
         while (($buffer = fgets($fh)) !== false) {
             if (preg_match('/^([1-6]{5})\s+(.*)\s*$/', $buffer, $matches)) {
-                $this->dictionary[intval($matches[1])] = $matches[2];
+                $this->dictionary[intval($matches[1])] = trim($matches[2]);
             }
         }
 
