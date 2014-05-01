@@ -12,7 +12,7 @@ class ZendDiceTest extends AbstractDiceTest
     }
 
     /**
-     * @expectedException RuntimeException
+     * @expectedException \RuntimeException
      */
     public function testRollRange($cycles = 100)
     {
@@ -20,7 +20,7 @@ class ZendDiceTest extends AbstractDiceTest
     }
 
     /**
-     * @expectedException RuntimeException
+     * @expectedException \RuntimeException
      */
     public function testRollMean($cycles = 100)
     {
