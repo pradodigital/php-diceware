@@ -4,12 +4,12 @@ namespace PradoDigital\Diceware;
 
 class Passphrase
 {
-    const DICEWARE_DEFAULT_SEPARATOR = ' ';
+    const DEFAULT_SEPARATOR = ' ';
 
     private $parts;
     private $separator;
 
-    public function __construct($separator = self::DICEWARE_DEFAULT_SEPARATOR)
+    public function __construct($separator = self::DEFAULT_SEPARATOR)
     {
         $this->parts = array();
         $this->setSeparator($separator);
@@ -23,6 +23,11 @@ class Passphrase
     public function addWord($word)
     {
         $this->parts[] = $word;
+    }
+
+    public function getWords()
+    {
+        return $this->parts;
     }
 
     public function render()
